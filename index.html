@@ -53,6 +53,25 @@
 }
 </style>
 
+<style>
+  #mydiv3{
+  position: absolute;
+  top: 210px;
+  left: 63px;
+  width: 225px;
+  height: 175px;
+  position-x
+  z-index: 9;
+  text-align: center;
+}
+
+#mydivheader3 {
+  padding: 2px;
+  cursor: move;
+  z-index: 10;
+}
+</style>
+
 <body>
   <style>
     body {
@@ -61,6 +80,10 @@
       background-attachment: fixed;
     }
   </style>
+
+  <div id = "mydiv3">
+    <p><img src="plant1.png" width = 100 height = 100 style="vertical-alightment:middle;margin:550px 580px"> </p>
+  </div>
 
   <div id = "mydiv">
     <div id="mydivheader">猫ちゃん</div>
@@ -76,7 +99,7 @@
 //Make the DIV element draggagle:
 dragElement(document.getElementById("mydiv"));
 dragElement(document.getElementById("mydiv2"));
-
+dragElement(document.getElementById("mydiv3"));
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id + "header")) {
@@ -120,8 +143,6 @@ function dragElement(elmnt) {
 </script>
 
 
-
-
  <svg width="100%" height="180">
   <rect x="0" y="0" width="100%" height="20"
   style="fill:pink;stroke:black;stroke-width:3;fill-opacity:100.1;stroke-opacity:100" />
@@ -135,5 +156,6 @@ function dragElement(elmnt) {
   </script>
 </svg> 
 
+  <img src="room2.png" width = 500 height = 500 style="vertical-alightment:middle;margin:350px 570px">
 </body>
 </html>
