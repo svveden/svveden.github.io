@@ -10,7 +10,6 @@ body {
   left: 63px;
   width: 225px;
   height: 175px;
-  position-x
   z-index: 9;
   padding: 2px;
   background-color: pink;
@@ -51,13 +50,9 @@ body {
 
   #mydiv3{
   position: absolute;
-  top: 210px;
-  left: 63px;
-  width: 225px;
-  height: 175px;
+  top: 760px;
+  left: 653px;
   position-x
-  z-index: 9;
-  text-align: center;
 }
 
 #mydivheader3 {
@@ -72,4 +67,27 @@ body {
   color: pink;
   width: 0px;
   background-color: pink;
+}
+
+#mydiv4{
+  position: absolute;
+  top: 500px;
+  left: 1400px;
+  width: 420px;
+  height: 290px;
+  position-x
+  z-index: 9;
+  padding: 2px;
+  background-color: pink;
+  text-align: center;
+  font: Times New Roman;
+  border: 2px solid black
+}
+
+#mydivheader4 {
+  padding: 2px;
+  cursor: move;
+  z-index: 10;
+  background-color: black;
+  color: pink;
 }
