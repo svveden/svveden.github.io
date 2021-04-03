@@ -91,3 +91,49 @@ body {
   background-color: black;
   color: pink;
 }
+
+#eye2{
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  top: 200px;
+  left: 570px;
+  position-x
+  z-index: 9;
+  padding: 2px;
+  background-color: pink;
+  text-align: center;
+  font: Times New Roman;
+  border: 2px solid black
+}
+
+#eyeh2 {
+  padding: 2px;
+  cursor: move;
+  z-index: 10;
+  background-color: black;
+  color: pink;
+}
+
+#mouth{
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  top: 200px;
+  left: 570px;
+  position-x
+  z-index: 9;
+  padding: 2px;
+  background-color: pink;
+  text-align: center;
+  font: Times New Roman;
+  border: 2px solid black
+}
+
+#mouthh {
+  padding: 2px;
+  cursor: move;
+  z-index: 10;
+  background-color: black;
+  color: pink;
+}
