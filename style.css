@@ -160,3 +160,25 @@ body {
   background-color: black;
   color: pink;
 }
+
+#shoes{
+  position: absolute;
+  top: 210px;
+  left: 1233px;
+  width: 225px;
+  height: 175px;
+  z-index: 9;
+  padding: 2px;
+  background-color: pink;
+  text-align: center;
+  font: Times New Roman;
+  border: 2px solid black
+}
+
+#shoesheader {
+  padding: 2px;
+  cursor: move;
+  z-index: 10;
+  background-color: black;
+  color: pink;
+}
