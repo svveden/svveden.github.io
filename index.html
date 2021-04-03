@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
   <div id = "mydiv4">
     <div id="mydivheader4">魚</div>
     <p><video controls autoplay controls loop width="400" height="300" 
@@ -36,10 +37,10 @@
     dragElement(document.getElementById("mydiv4"));
   </script>
 
- <svg width="100%" height="180">
+ <svg width="100%" height="40">
     <rect x="0" y="0" width="100%" height="20"
     style="fill:pink;stroke:black;stroke-width:3;fill-opacity:100.1;stroke-opacity:100" />
-    <text x="10" y="16" font-family="Times New Roman" font-size="15" fill="black">ファイル</text>
+    <text x="10" y="16" onclick = myFunction(); font-family="Times New Roman" font-size="15" fill="black">ファイル</text>
     <text x="90" y="16" font-family="Times New Roman" font-size="15" fill="black">アバウト</text>
     <text x="170" y="16" font-family="Times New Roman" font-size="15" fill="black">ジャレット</text>
     <text x="93.4%" y="16" font-family="Times New Roman" font-size="15"　fill="black">時間 <tspan id="now">(time)</tspan></text>
@@ -48,8 +49,15 @@
       document.getElementById('now').firstChild.nodeValue = dateString;
     </script>
   </svg> 
+  <p id="demo"></p>
+  <script>
+function myFunction() {
+  var btn = document.createElement('btn');
+  btn = document.getElementById('demo').innerHTML = "<a href='https://svveden.github.io/kernel32.html'><button type='button'><span style='margin: -12px 1px; color:white; font-size:22px; background-color: black;font: Times New Roman;border: 40px solid pink'>死の入口</span></button>" 
+}
+</script>
   
-  <img src="pictures/room2.png" width = 500 height = 500 style="margin:350px 570px">
+  <img src="pictures/room2.png" width = 500 height = 500 style="margin:450px 570px">
   <div id = "plantwords">
     <p style="margin:-800px 530px">植物ゲーム</p>
   </div>
