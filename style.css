@@ -175,7 +175,7 @@ body {
   border: 2px solid black
 }
 
-#shoesheader {
+#shoesheader{
   padding: 2px;
   cursor: move;
   z-index: 10;
