@@ -130,6 +130,12 @@
     text-shadow: 2.6208764473832513px 0 1px rgba(36,193,237,0.5), -2.6208764473832513px 0 1px rgba(255,255,255,0.3), 0 0 3px;
   }
 }
+
+@keyframes cursor {
+  from{background-color: green;}
+  to{background-color: black;}
+}
+
 .crt::after {
   content: " ";
   display: block;
@@ -162,6 +168,22 @@
   color:  white;
   font-family: Modern;
 
+}
+
+.text-box{
+  color: green;
+  position: absolute;
+  left: 950px;
+  top: 715px;
+}
+.cursor {
+  width:  10px;
+  height:  25px;
+  position:  relative;
+  left: 960px;
+  bottom: 50px;
+  background-color: blue;
+  animation: cursor 1.5s infinite;
 }
 
 .image {
