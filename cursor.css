@@ -197,3 +197,17 @@
   top: 500px;
   width: 100%;
 }
+
+a:visited {
+  color: green;
+}
+a:hover {
+  color: red;
+}
+body {
+  background-color:  black;
+  overflow:  hidden;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: 1920px, 1080px;
+}
